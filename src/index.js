@@ -28,9 +28,11 @@ class App extends React.Component {
     return (
       <div style={{
         minWidth: 768,
-        fontFamily: 'Roboto'
+        fontFamily: 'Roboto',
+        textAlign: 'center'
       }}>
-        <h1 style={{ textAlign: 'center' }}>Markdown Previewer</h1>
+        <img src="https://raw.githubusercontent.com/dcurtis/markdown-mark/master/png/208x128-solid.png" alt="logo"/>
+        <h1>Markdown Previewer</h1>
 
         <Input value={value} onChange={this.handleChange} />
 

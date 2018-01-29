@@ -9,7 +9,8 @@ function Output(props) {
       display: 'inline-block',
       width: '45%',
       padding: '0 2.5%',
-      verticalAlign: 'top'
+      verticalAlign: 'top',
+      textAlign: 'left'
     }}
       dangerouslySetInnerHTML={onChange()}
     >
